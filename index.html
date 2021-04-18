@@ -67,9 +67,9 @@
             <a x-on:click.prevent="open = true" class="" href="">Send Us a Text</a>
         
       
-        <div x-show.transition.opacity="open" class="p-4 fixed flex justify-center items-center inset-0 bg-black bg-opacity-75 z-50">
+        <div x-show.transition.opacity="open" class="p-4 fixed flex justify-center items-center inset-0 bg-black text-black bg-opacity-75 z-50">
                 <form x-on:click.away="open = false" x-show.transition="open" class="max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
-                        <h3 class="mb-6 text-2xl font-medium text-center">Send us a Text</h3>
+                        <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
                         <div class="block mb-4 border border-gray-200 rounded-lg">
                             <input type="text" name="first-name" id="1-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
                         </div>
@@ -83,7 +83,7 @@
                             <textarea name="message" cols="5" id="1-message" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="What is your message?"></textarea>
                         </div>
                         <div class="block">
-                            <button type="button" onclick= "send_sms(1, 'TNT-Pressure-Washing')" class="w-full px-3 py-4 font-bold font-lg text-white bg-blue-900 rounded-lg">Send</button>
+                            <button type="button" onclick= "send_sms(1, 'TNT-Pressure-Washing')" class="w-full px-3 py-4 font-bold font-lg text-white  bg-blue-900  rounded-lg">Send</button>
                         </div>
                         
     
@@ -116,8 +116,8 @@
                     <h5 class="text-3xl font-extrabold">Send us a text</h5> 
                 </button>
                 <div x-show.transition.opacity="open" class="p-4 fixed flex justify-center items-center inset-0 bg-black bg-opacity-75 z-50">
-                    <form x-on:click.away="open = false" x-show.transition="open" class="max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
-                            <h3 class="mb-6 text-2xl font-medium text-center">Send us a Text</h3>
+                    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
+                            <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
                             <div class="block mb-4 border border-gray-200 rounded-lg">
                                 <input type="text" name="first-name" id="2-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
                             </div>
@@ -131,7 +131,7 @@
                                 <textarea name="message" cols="5" id="2-message" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="What is your message?"></textarea>
                             </div>
                             <div class="block">
-                                <button type="button" onclick= "send_sms(2, 'TNT-Pressure-Washing')" id= "send" class="w-full px-3 py-4 font-bold font-lg text-white bg-blue-900 rounded-lg">Send</button>
+                                <button type="button" onclick= "send_sms(2, 'TNT-Pressure-Washing')" id= "send" class="w-full px-3 py-4 font-bold font-lg text-white  bg-blue-900  rounded-lg">Send</button>
                             </div>
                             
      
@@ -165,7 +165,7 @@
                     About Us
                 </h5>
                 <p class="py-5 px-5 lg:px-0 mb-5 text-center lg:text-left  lg:text-xl">
-                TNT Pressure Washing services Aiken, Florence and the surrounding areas! In May and November we will make it out to Pawleys Island as well. TNT is owned and operated by Tim Bradley. Tim has more than 20 years experience and has been a lifelong resident of Kershaw county for 50+ years. Tim is a family man having been married for 20 years and 3 fantastic kids. Great service, very prompt and fair with all my customers. I treat and respect their property and belongings as if they were my own. Please give us a call or text at (803) 445-3698!
+                TNT Pressure Washing services Aiken to Florence and the surrounding areas! In May and November we will make it out to Pawleys Island as well. TNT is owned and operated by Tim Bradley. Tim has more than 20 years experience and has been a lifelong resident of Kershaw county for 50+ years. Tim is a family man having been married for 20 years and 3 fantastic kids. Great service, very prompt and fair with all my customers. I treat and respect their property and belongings as if they were my own. Please give us a call or text at (803) 445-3698!
                 </p>                
             </div>
 
@@ -258,10 +258,10 @@
                     <div class="box-border flex flex-col items-center  h-full px-2 py-4 md:py-8 mx-4 leading-6 text-center border-solid ">
                         
                         <div class="md:mt-6 font-sans text-center border-0 border-blue-200 ">
-                            <span class="box-border text-xl font-bold leading-none tracking-wider border-solid  text-blue-400  ">Softwashing Homes</span>
+                            <span class="box-border text-xl font-bold leading-none tracking-wider border-solid  text-blue-400  ">Surface Cleaning</span>
                             <p
                                 class="box-border mx-0 mt-2 mb-0 font-normal leading-snug text-center    border-solid ">
-                                When it comes to your home it is critical that you not only wash it but also ensure a safe technique when doing so. Our softwash will remove grime without risking damage.
+                                For all types of surfaces including driveways, walkways, patios and outdoor tile areas we can make your surface look like new again.
                             </p>
                         </div>
                     </div>
@@ -284,10 +284,10 @@
                     <div class="box-border flex flex-col items-center  h-full px-2 py-4 md:py-8 mx-4 leading-6 text-center border-solid ">
                         
                         <div class="md:mt-6 font-sans text-center border-0 border-blue-200 ">
-                            <span class="box-border text-xl font-bold leading-none tracking-wider border-solid  text-blue-400  ">Surface Cleaning</span>
+                            <span class="box-border text-xl font-bold leading-none tracking-wider border-solid  text-blue-400  ">Softwashing Homes</span>
                             <p
                                 class="box-border mx-0 mt-2 mb-0 font-normal leading-snug text-center    border-solid ">
-                                For all types of surfaces including driveways, walkways, patios and outdoor tile areas we can make your surface look like new again.
+                                When it comes to your home it is critical that you not only wash it but also ensure a safe technique when doing so. Our softwash will remove grime without risking damage.
                             </p>
                         </div>
                     </div>
@@ -351,8 +351,8 @@
 
                     
             
-                    <div class="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/2">
-                    <div class="flex items-start ">
+                    <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
+                    <div class="flex items-center lg:items-start ">
                         
                         <div class="flex flex-col justify-start items-center lg:items-start ">
                             <h4 class="font-bold  text-blue-200  ">Nick O.</h4>
@@ -372,7 +372,7 @@
                                 
                                 
                             </div>
-                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl lg:text-left   text-white ">"Very professional and responsive!"</blockquote>                           
+                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"Very professional and responsive!"</blockquote>                           
                         </div>
                     </div>
                     
@@ -380,8 +380,8 @@
 
                     
             
-                    <div class="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/2">
-                    <div class="flex items-start ">
+                    <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
+                    <div class="flex items-center lg:items-start ">
                         
                         <div class="flex flex-col justify-start items-center lg:items-start ">
                             <h4 class="font-bold  text-blue-200  ">Brihu S.</h4>
@@ -401,7 +401,7 @@
                                 
                                 
                             </div>
-                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl lg:text-left   text-white ">"Friendly and has great customer service!"</blockquote>                           
+                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"Friendly and has great customer service!"</blockquote>                           
                         </div>
                     </div>
                     
@@ -462,7 +462,7 @@
             height="500px"
             frameborder="0" style="border:0"
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBPscVsAYq9Mo6GmcMKF1tUfrWWN2Gt93M
-                &q=,Aiken+,South+Carolina+," allowfullscreen>
+                &q=,Kershaw+County,South+Carolina+," allowfullscreen>
         </iframe>
     </div>
 </section>
